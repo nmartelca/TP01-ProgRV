@@ -24,5 +24,5 @@ int main() {
         printf("\nQuel est le nombre ? ");
         scanf_s("%d", &nbALire);
     }
-    printf("\nBravo, vous avez trouve le nombre mystere !!!");
+    printf("\nBravo, vous avez la bonne version -nicMartel !!!");
 }
