@@ -18,5 +18,8 @@
     <ClCompile Include="TP01-ProgRV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\VendrediPM\VendrediPM\ExercicesCours5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
