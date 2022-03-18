@@ -5,7 +5,7 @@
 int main() {
 
     const int MIN = 1;
-    const int MAX = 100;
+    const int MAX = 102;
 
     srand(time(NULL));
     int nbAleatoire = (rand() % (MAX - MIN + 1)) + MIN;
