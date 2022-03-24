@@ -2,6 +2,17 @@
 #include <stdio.h>
 #include <time.h>
 
+/*• Faites un compteur de « coups ». Ce compteur devra être une variable que vous incrémenterez à chaque fois que vous
+passez dans la boucle. Lorsque l'utilisateur a trouvé le nombre mystère, vous lui direz « Bravo, vous avez trouvé le
+nombre mystère en 8 coups » par exemple.
+• Lorsque l'utilisateur a trouvé le nombre mystère, le programme s'arrête. Pourquoi ne pas demander s'il veut faire une
+autre partie ?
+• Implémentez un mode 2 joueur ! Attention, je veux qu'on ait le choix entre un mode 1 joueur et un mode 2 joueurs.
+• Créez plusieurs niveaux de difficulté. Au début, faites un menu qui demande le niveau de difficulté. Par exemple :
+1 = entre 1 et 100 ; 2 = entre 1 et 1000 ; 3 = entre 1 et 10000.
+Schématiser votre algorithme dans un organigramme en utilisant du Pseudo-code
+Rédiger un rapport de tests fonctionnels */
+
 int main() {
 
     const int MIN = 1;
