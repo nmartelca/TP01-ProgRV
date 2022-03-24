@@ -13,6 +13,8 @@ autre partie ?
 Schématiser votre algorithme dans un organigramme en utilisant du Pseudo-code
 Rédiger un rapport de tests fonctionnels */
 
+///bonjour/
+
 int main() {
 
     const int MIN = 1;
