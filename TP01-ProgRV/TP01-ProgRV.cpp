@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
+///bonjour/
+
 int main() {
 
     const int MIN = 1;
