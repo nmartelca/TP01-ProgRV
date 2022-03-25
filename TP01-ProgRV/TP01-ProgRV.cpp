@@ -15,9 +15,16 @@ int main() {
     int compteur2Joueurs = NULL;
     int nivDifficulte = NULL;
 
+    /* Affichage */
+    printf("\n                          _         ");
+    printf("\n ___ _ _ ___ ___ ___     |_|___ _ _ ");
+    printf("\n|_ -| | | . | -_|  _|    | | -_| | |");
+    printf("\n|___|___|  _|___|_|     _| |___|___|");
+    printf("\n        |_|            |___|        ");
 
-    printf("\n\nLe Super Jeux va Commencer ! ");
-    printf("\n\nQuel niveau de difficulté ? (facile = 1, moyen = 2, dicile = 3)");
+
+    // ici on selectionne le niveau de difficulte entre 1 et 3 ou custom 
+    printf("\n\nQuel niveau de difficulte ? (facile = 1, moyen = 2, dicile = 3)");
     scanf_s("%d", &nivDifficulte);
 
     if (nivDifficulte == 1){
@@ -34,21 +41,25 @@ int main() {
         scanf_s("%d", & MAX);
     }
 
+    // la fonction de chiffre alleatoire modifiée selon la valeur max.
     srand(time(NULL));
     int nbAleatoire = (rand() % (MAX - MIN + 1)) + MIN;
     int nbALire = 0;
 
+    // ici on choisit le nombre de joueur entre 1 et 2 
     printf("\n\nCombien de joueurs ? ");
     scanf_s("%d", &nbDeJoueurs);
 
+    // boucle pour etre certain que le choix se fait entre 1 et 2.
     while (nbDeJoueurs >2){
 
         printf("\nOn peut juste jouer à un ou à deux, fait pas la smatte !");
         printf("\n\nCombien de joueurs pour vrai ? ");
         scanf_s("%d", &nbDeJoueurs);
     }
-
+    // switch sur le nombre de joueur
     switch (nbDeJoueurs){
+
     case 1:
 
         printf("\n\nInscrivez un chiffre et trouver le nombre mystere ! ");
